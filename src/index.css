@@ -1,0 +1,110 @@
+body {
+  overflow: hidden;
+}
+
+.text {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.tastatura {
+  text-align: center;
+  display: inline;
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  align-content: center;
+}
+
+.capslock {
+  width: 11.05685618729097vw;
+  text-align: center;
+}
+
+.enter {
+  width: 12.05685618729097vw;
+}
+
+.shift {
+  width: 09.187290969899667vw;
+}
+
+.space {
+  width: 30.36789297658863vw;
+}
+
+.ok {
+  width: 09.187290969899667vw;
+}
+
+.backspace {
+  width: 10.05685618729097vw;
+}
+
+button {
+  border-radius: 0.3vw;
+  padding: 1.5vw 1.5vw;
+  text-align: center;
+  display: inline-block;
+  margin: 0.16755852842809363vw 0.16755852842809363vw;
+  font-size: 1.5682274247491639vw;
+  justify-self: center;
+  font-weight:bolder;
+}
+
+.red {
+  display: block;
+}
+
+button:hover {
+  background-color: cadetblue;
+}
+
+#display{
+  border: 2px solid black;
+  border-radius: 1vw;
+  font-size: 1.7vw;
+}
+
+@media screen and (min-width: 768px) {
+  #display{
+    border: 3px solid black;
+    border-radius: 1.2vw;
+    font-size: 2vw;
+  }
+
+  button {
+    border-radius: 0.2vw;
+    margin: 0.36755852842809363vw 0.36755852842809363vw;
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+    font-weight: 500;
+  }
+
+  .capsLock {
+    width: 11.05685618729097vw;
+  }
+
+  .enter {
+    width: 17.05685618729097vw;
+  }
+
+  .shift {
+    width: 16.187290969899667vw;
+  }
+
+  .space {
+    width: 50.36789297658863vw;
+  }
+
+  .ok {
+    width: 16.187290969899667vw;
+  }
+
+  .backspace {
+    width: 17.05685618729097vw;
+  }
+}

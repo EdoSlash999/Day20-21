@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <h2>QWERTY Keyboard</h2>
+
+    <div class="text">
+        <label for="display" id="textArea">
+            <textarea type="text" name="display" id="display" cols="40" rows="5">
+
+            </textarea>
+        </label>
+    </div>
+
+    <div class="tastatura">
+            <div class="red">
+        <button onclick="letterKeys('1')" type="button" id="1" value="1">1</button>
+        <button onclick="letterKeys('2')" type="button" id="2" value="2">2</button>
+        <button onclick="letterKeys('3')" type="button" id="3" value="3">3</button>
+        <button onclick="letterKeys('4')" type="button" id="4" value="4">4</button>
+        <button onclick="letterKeys('5')" type="button" id="5" value="5">5</button>
+        <button onclick="letterKeys('6')" type="button" id="6" value="6">6</button>
+        <button onclick="letterKeys('7')" type="button" id="7" value="7">7</button>
+        <button onclick="letterKeys('8')" type="button" id="8" value="8">8</button>
+        <button onclick="letterKeys('9')" type="button" id="9" value="9">9</button>
+        <button onclick="letterKeys('0')" type="button" id="0" value="0">0</button>
+        <button onclick="funcDel()" type="button" id="backspace" class="backspace">back space</button> 
+            </div>
+            <div class="red">
+        <button onclick ="letterKeys('q')" type="button" value="q" value="q">q</button>
+        <button onclick ="letterKeys('w')" type="button" id="w" value="w">w</button>
+        <button onclick ="letterKeys('e')" type="button" id="e" value="e">e</button>
+        <button onclick ="letterKeys('r')" type="button" id="r" value="r">r</button>
+        <button onclick ="letterKeys('t')" type="button" id="t" value="t">t</button>
+        <button onclick ="letterKeys('y')" type="button" id="y" value="y">y</button>
+        <button onclick ="letterKeys('u')" type="button" id="u" value="u">u</button>
+        <button onclick ="letterKeys('i')" type="button" id="i" value="i">i</button>
+        <button onclick ="letterKeys('o')" type="button" id="o" value="o">o</button>
+        <button onclick ="letterKeys('p')" type="button" id="p" value="p">p</button>
+        <button onclick ="" type="button" id="caps" class="capslock">caps lock</button>
+            </div>
+            <div class="red">
+        <button onclick="letterKeys('a')" type="button" id="a" value="a">a</button>
+        <button onclick="letterKeys('s')" type="button" id="s" value="s">s</button>
+        <button onclick="letterKeys('d')" type="button" id="d" value="d">d</button>
+        <button onclick="letterKeys('f')" type="button" id="f" value="f">f</button>
+        <button onclick="letterKeys('g')" type="button" id="g" value="g">g</button>
+        <button onclick="letterKeys('h')" type="button" id="h" value="h">h</button>
+        <button onclick="letterKeys('j')" type="button" id="j" value="j">j</button>
+        <button onclick="letterKeys('k')" type="button" id="k" value="k">k</button>
+        <button onclick="letterKeys('l')" type="button" id="l" value="l">l</button>
+        <button onclick="yourFunction()" type="button" id="enter" class="enter">Enter</button>
+            </div>
+            <div class="red">
+        <button onclick="letterKeys('z')" type="button" id="z" value="z">z</button>
+        <button onclick="letterKeys('x')" type="button" id="x" value="x">x</button>
+        <button onclick="letterKeys('c')" type="button" id="c" value="c">c</button>
+        <button onclick="letterKeys('v')" type="button" id="v" value="v">v</button>
+        <button onclick="letterKeys('b')" type="button" id="b" value="b">b</button>
+        <button onclick="letterKeys('n')" type="button" id="n" value="n">n</button>
+        <button onclick="letterKeys('m')" type="button" id="m" value="m">m</button>
+        <button onclick="letterKeys('-')" type="button" id="-" value="-">-</button>
+        <button onclick="letterKeys('_')" type="button" id="_" value="_">_</button>
+        <button onclick="" type="button" id="shift" class="shift">Shift</button>
+            </div>
+            <div class="red">
+        <button onclick="funcSpace()" type="button" id="space" class="space">Space</button>
+        <button onclick="" type="button" id="ok" class="ok">OK</button>
+            </div>
+    </div>
+
+    
+</body>
+</html>
