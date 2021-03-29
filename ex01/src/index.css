@@ -22,6 +22,7 @@ h2 {
 .capslock {
   width: 11.05685618729097vw;
   text-align: center;
+  background-color: white;
 }
 
 .enter {
@@ -30,6 +31,7 @@ h2 {
 
 .shift {
   width: 09.187290969899667vw;
+  background-color: white;
 }
 
 .space {
@@ -55,12 +57,20 @@ button {
   font-weight:bolder;
 }
 
+.ok:hover{
+  background-color: red;
+}
+
+.capslock:hover, .shift:hover {
+  background-color: #666;
+}
+
 .red {
   display: block;
 }
 
-button:hover {
-  background-color: cadetblue;
+button:not(.capslock):not(.shift):not(.ok):hover {
+  background-color: rgb(172, 241, 243);
 }
 
 #display{
@@ -70,6 +80,10 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
+  .capslock:hover, .shift:hover {
+    background-color: #666;
+  }
+
   #display{
     border: 3px solid black;
     border-radius: 1.2vw;
@@ -86,6 +100,7 @@ button:hover {
 
   .capsLock {
     width: 11.05685618729097vw;
+    background-color: white;
   }
 
   .enter {
@@ -94,6 +109,7 @@ button:hover {
 
   .shift {
     width: 16.187290969899667vw;
+    background-color: white;
   }
 
   .space {

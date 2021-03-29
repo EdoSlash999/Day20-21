@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QWERTY Keyboard</title>
     <link rel="stylesheet" href="./index.css" type="text/css">
     <script src="index.js"></script>
 </head>
@@ -14,7 +14,7 @@
 
     <div class="text">
         <label for="display" id="textArea">
-            <textarea type="text" name="display" id="display" cols="40" rows="5">
+            <textarea type="text" value=" " name="display" id="display" cols="40" rows="5">
 
             </textarea>
         </label>
@@ -45,7 +45,7 @@
         <button onclick ="letterKeys('i')" type="button" id="i" value="i">i</button>
         <button onclick ="letterKeys('o')" type="button" id="o" value="o">o</button>
         <button onclick ="letterKeys('p')" type="button" id="p" value="p">p</button>
-        <button onclick ="" type="button" id="caps" class="capslock">caps lock</button>
+        <button onclick ="funcCaps('caps')" type="button" id="caps" class="capslock">caps lock</button>
             </div>
             <div class="red">
         <button onclick="letterKeys('a')" type="button" id="a" value="a">a</button>
@@ -57,7 +57,7 @@
         <button onclick="letterKeys('j')" type="button" id="j" value="j">j</button>
         <button onclick="letterKeys('k')" type="button" id="k" value="k">k</button>
         <button onclick="letterKeys('l')" type="button" id="l" value="l">l</button>
-        <button onclick="yourFunction()" type="button" id="enter" class="enter">Enter</button>
+        <button onclick="funcEnter()" type="button" id="enter" class="enter">Enter</button>
             </div>
             <div class="red">
         <button onclick="letterKeys('z')" type="button" id="z" value="z">z</button>
@@ -69,11 +69,11 @@
         <button onclick="letterKeys('m')" type="button" id="m" value="m">m</button>
         <button onclick="letterKeys('-')" type="button" id="-" value="-">-</button>
         <button onclick="letterKeys('_')" type="button" id="_" value="_">_</button>
-        <button onclick="" type="button" id="shift" class="shift">Shift</button>
+        <button onclick="funcShift('shift')" type="button" id="shift" class="shift">Shift</button>
             </div>
             <div class="red">
         <button onclick="funcSpace()" type="button" id="space" class="space">Space</button>
-        <button onclick="" type="button" id="ok" class="ok">OK</button>
+        <button onclick="funcOk()" type="button" id="ok" class="ok">OK</button>
             </div>
     </div>
 
